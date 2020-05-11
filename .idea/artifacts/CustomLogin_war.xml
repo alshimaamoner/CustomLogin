@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CustomLogin:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CustomLogin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CustomLogin-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CustomLogin:war exploded" />
+    </root>
+  </artifact>
+</component>
